@@ -34,4 +34,4 @@ jobs:
       - name: Print pushed image URI
         env:
           IMAGE_URI: ${{ steps.build.outputs.image_uri }}
-        run: echo "Pushed image: $IMAGE_URI"
+        run: echo "Pushed image $IMAGE_URI"
